@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Cat - Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        
+        .last-updated {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 24px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        
+        h3 {
+            color: #34495e;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            background: #e8f5e9;
+            padding: 15px;
+            border-left: 4px solid #4caf50;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .warning {
+            background: #fff3e0;
+            padding: 15px;
+            border-left: 4px solid #ff9800;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        strong {
+            color: #2c3e50;
+        }
+        
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy for Focus Cat - AI Focus Tutor</h1>
+        <p class="last-updated"><strong>Last Updated:</strong> May 9, 2026</p>
+        
+        <div class="highlight">
+            <p><strong>Privacy-First Promise:</strong> Focus Cat is built with privacy as the foundation. Your webcam feed is processed locally on your device in real-time and is NEVER recorded, stored, or transmitted anywhere. We collect ZERO personal data.</p>
+        </div>
+
+        <h2>1. Introduction</h2>
+        <p>Focus Cat ("we," "our," or "the extension") is a privacy-first productivity Chrome extension that uses local artificial intelligence to help users maintain focus during work or study sessions. This Privacy Policy explains our data practices and your privacy rights.</p>
+
+        <h2>2. Information We DO NOT Collect</h2>
+        <p>Focus Cat is designed with privacy as the core principle. We explicitly DO NOT collect, store, transmit, or process:</p>
+        <ul>
+            <li><strong>Webcam Recordings:</strong> Your camera feed is analyzed in real-time using local AI and immediately discarded. No frames are saved, recorded, or transmitted.</li>
+            <li><strong>Screenshots or Images:</strong> No visual data from your camera is ever saved to disk or memory beyond the milliseconds needed for AI analysis.</li>
+            <li><strong>Browsing History:</strong> We do not track, monitor, or collect information about websites you visit.</li>
+            <li><strong>Location Data:</strong> No GPS coordinates, IP addresses, or location information.</li>
+            <li><strong>Device Information:</strong> No device identifiers, hardware specifications, or system information.</li>
+            <li><strong>Third-Party Data Sharing:</strong> We have no servers, so there's nothing to share with anyone.</li>
+        </ul>
+
+        <h2>3. Information We Store Locally</h2>
+        <p>The ONLY data stored by Focus Cat is saved locally in your browser using Chrome's storage API and never leaves your device:</p>
+        
+        <h3>3.1 Productivity Statistics</h3>
+        <ul>
+            <li><strong>Daily Time Counters:</strong> Three anonymous numbers representing seconds spent in each state (focused, distracted, away from desk)</li>
+        
+        </ul>
+
+        <h3>3.2 User Preferences</h3>
+        <ul>
+            <li><strong>Detection Mode:</strong> Your selected monitoring mode preference (laptop/phone , future aspect for new features)</li>
+        </ul>
+
+        <div class="warning">
+            <p><strong>Important:</strong> All data is stored in your local browser storage (chrome.storage.local). This data never leaves your computer, is not synchronized across devices, and is not accessible to us or any third party.</p>
+        </div>
+
+        <h2>4. How the Extension Works</h2>
+        
+        <h3>4.1 Local AI Processing</h3>
+        <p>Focus Cat uses TensorFlow.js and Teachable Machine libraries that run entirely in your browser:</p>
+        <ul>
+            <li>AI models are downloaded once during installation and stored locally</li>
+            <li>Your webcam feed is processed frame-by-frame in your browser's memory</li>
+            <li>Each frame is analyzed and immediately discarded (within milliseconds)</li>
+            <li>Only the AI's classification result (focused/distracted/away) is used, not the image itself</li>
+            <li>No frames are sent to external servers or cloud services</li>
+        </ul>
+
+        <h3>4.2 Webcam Permission</h3>
+        <p>Focus Cat requests webcam permission solely for local AI analysis:</p>
+        <ul>
+            <li>The camera activates only when you click "Start Focus Session"</li>
+            <li>The video feed is displayed to you as a preview for transparency</li>
+            <li>The feed is processed locally using on-device machine learning</li>
+            <li>No recording, saving, or transmission of video data occurs</li>
+            <li>You can revoke camera permission at any time in Chrome settings</li>
+        </ul>
+
+        <h2>5. Chrome Permissions Explained</h2>
+        <p>Focus Cat requests minimal permissions:</p>
+
+        <h3>5.1 Storage Permission</h3>
+        <ul>
+            <li><strong>Purpose:</strong> Save your daily productivity statistics and preferences locally</li>
+            <li><strong>Data Stored:</strong> Anonymous time counters and user preferences</li>
+            <li><strong>Location:</strong> Local browser storage only (chrome.storage.local)</li>
+        </ul>
+
+        <h3>5.2 Camera Permission</h3>
+        <ul>
+            <li><strong>Purpose:</strong> Enable local AI focus detection</li>
+            <li><strong>Usage:</strong> Real-time analysis only, no recording or storage</li>
+            <li><strong>Control:</strong> Only active when you start a focus session</li>
+        </ul>
+
+        <h2>6. Third-Party Services</h2>
+        <p><strong>Focus Cat uses NO third-party services.</strong></p>
+        <ul>
+            <li>No advertising networks</li>
+            <li>No cloud storage or servers</li>
+            <li>No external APIs or data transmission</li>
+            <li>No cookies or tracking pixels</li>
+        </ul>
+
+        <div class="highlight">
+            <p><strong>Zero Server Architecture:</strong> Focus Cat has no backend servers, no databases, and no cloud infrastructure. Everything runs locally on your device.</p>
+        </div>
+
+        <h2>7. Data Security</h2>
+        <p>Since Focus Cat doesn't collect or transmit data, traditional data security concerns don't apply. However:</p>
+        <ul>
+            <li>All code runs locally in the isolated Chrome extension environment</li>
+            <li>AI processing happens in a sandboxed iframe for additional security</li>
+            <li>Local storage data is protected by Chrome's built-in security mechanisms</li>
+            <li>No network requests are made (extension works completely offline)</li>
+        </ul>
+
+      
+        <h2>8. Your Privacy Rights</h2>
+        <p>You have complete control over your data:</p>
+        <ul>
+            <li><strong>Access:</strong> All your data is stored locally in chrome.storage.local, accessible only to you</li>
+            <li><strong>Delete:</strong> Uninstalling the extension removes all stored data</li>
+            <li><strong>Modify:</strong> You can clear your statistics at any time by reinstalling the extension</li>
+            <li><strong>Revoke Permissions:</strong> Disable camera access in Chrome settings at any time</li>
+        </ul>
+
+        <h2>9. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last Updated" date. Since we don't collect contact information, we cannot notify you directly of changes. We encourage you to review this policy periodically.</p>
+
+      
+
+        <h2>10. Consent</h2>
+        <p>By installing and using Focus Cat, you consent to this Privacy Policy. You can withdraw consent at any time by uninstalling the extension.</p>
+
+        <div class="footer">
+            <p><strong>Focus Cat - AI Focus Tutor</strong></p>
+            <p>Built with privacy and productivity in mind</p>
+            <p>© 2026 Focus Cat. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
